@@ -4,7 +4,6 @@ class Instrumenter {
   constructor(event, details, eventSource, destination='RMQ', isError=false) {
     super()
     this.event = event
-    // this.notifier = notifier; (Notifiers not needed for instrumentation, hence this is not added)
     this.details = details;
     this.source = eventSource;
     this.destination = destination;
