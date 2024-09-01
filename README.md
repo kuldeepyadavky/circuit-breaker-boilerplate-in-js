@@ -27,7 +27,7 @@ This project demonstrates the implementation of the Circuit Breaker design patte
 1. Clone the repository:
   ```sh
     git clone https://github.com/kuldeepyadavky/circuit-breaker-boilerplate-in-js
-    cd https://github.com/kuldeepyadavky/circuit-breaker-boilerplate-in-js
+    cd circuit-breaker-boilerplate-in-js
   ```
 
 2. Run the application:
