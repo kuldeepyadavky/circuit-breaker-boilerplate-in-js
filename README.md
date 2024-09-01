@@ -40,7 +40,7 @@ This project demonstrates the implementation of the Circuit Breaker design patte
 
 For a detailed explanation, check out my blog
   ```sh
-    https://medium.com/@kuldeepyadavky/circuit-breaker-design-pattern-2d94b3c69c5b
+    https://kuldeepyadavky.medium.com/circuit-breaker-design-pattern-2d94b3c69c5b
   ```
 
 The `CircuitBreaker` class in `circuit-breaker.js` is designed to manage the state of a protected function (an action) and decide whether it should be executed or blocked based on its recent success or failure rate. The circuit can be in one of three states: 
