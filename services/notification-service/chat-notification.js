@@ -1,5 +1,5 @@
-import { logMessage } from "../../common/logger.js";
-import Notification from "./notification.js";
+import { logMessage } from '../../common/logger.js';
+import Notification from './notification.js';
 
 const DEFAULT_CHAT = {
   space: 'DEFAULT', // some chat notification like gchat space
@@ -21,9 +21,9 @@ class ChatNotification extends Notification {
   notify() {
     // integrate gchat webhook or any other messaging service here
     logMessage(
-      `notified ${this.notifiees} on chat space ${this.chat.space} with message: ${this.message} about details: ${this.details}`
-      // send alert to chat.webhook
-    )
+      `notified ${this.notifiees} on chat space ${this.chat.space} with message: ${this.message} about details: ${JSON.stringify(this.details)}`
+      // you can add implementation to send alert to chat.webhook
+    );
   }
 }
 
