@@ -30,4 +30,4 @@ class Instrumenter {
 
 export default Instrumenter;
 // why is this file needed ? (why is instrumentation required ?)
-// Quoting my CEO -> If you can't instrument it -> you can't fix it  or improve it !
+// Quoting my CTO -> If you can't instrument it -> you can't fix it  or improve it !
